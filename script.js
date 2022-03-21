@@ -7,7 +7,7 @@
 function calcular() {
 
     let resultado = document.getElementById("resultado")
-    resultado.innerHTML= `<br>${calcCarne()} Kg<br> ${calcCerveja()} L<br> ${calcRefriAgua()} L`
+    resultado.innerHTML= `<br>${calcCarne()} Kg de Carne<br> ${calcCerveja()} L de Cerveja<br> ${calcRefriAgua()} L de Refrigerante/Agua`
 
 }
 
